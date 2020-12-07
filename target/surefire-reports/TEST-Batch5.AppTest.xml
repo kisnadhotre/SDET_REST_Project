@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="Batch5.AppTest" time="0.006" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="Batch5.AppTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.vendor" value="AdoptOpenJDK"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -16,7 +16,7 @@
     <property name="user.language" value="en"/>
     <property name="com.ibm.oti.vm.bootstrap.library.path" value="C:\Users\KrishnaDhotre\Documents\jdk-11.0.8\bin\compressedrefs;C:\Users\KrishnaDhotre\Documents\jdk-11.0.8\bin"/>
     <property name="sun.boot.library.path" value="C:\Users\KrishnaDhotre\Documents\jdk-11.0.8\bin\compressedrefs;C:\Users\KrishnaDhotre\Documents\jdk-11.0.8\bin"/>
-    <property name="classworlds.conf" value="C:\Users\KrishnaDhotre\Documents\IBM_2020\SDET\SoapUI_Project\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4647503869565016660.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\KrishnaDhotre\Documents\IBM_2020\SDET\SoapUI_Project\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7042317726972236572.tmp"/>
     <property name="jdk.extensions.version" value="11.0.8.0"/>
     <property name="java.version" value="11.0.8"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
@@ -82,5 +82,5 @@ JCL      - 95bb504fbb based on jdk-11.0.8+10"/>
     <property name="com.ibm.oti.configuration" value="scar"/>
     <property name="java.vendor.version" value="AdoptOpenJDK"/>
   </properties>
-  <testcase classname="Batch5.AppTest" name="testApp" time="0.006"/>
+  <testcase classname="Batch5.AppTest" name="testApp" time="0"/>
 </testsuite>

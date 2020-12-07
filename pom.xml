@@ -15,14 +15,6 @@
 			<id>SmartBearPluginRepository</id>
 			<url>http://smartbearsoftware.com/repository/maven2</url>
 		</pluginRepository>
-		<pluginRepository>
-			<id>PoiRepository</id>
-			<url>https://mvnrepository.com/artifact/org.apache.poi</url>
-		</pluginRepository>
-		<pluginRepository>
-			<id>CommonCollectionRepository</id>
-			<url>https://mvnrepository.com/artifact/org.apache.commons/commons-collections4</url>
-		</pluginRepository>
 
 	</pluginRepositories>
 	<properties>
@@ -124,6 +116,12 @@
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
 			<version>4.1.2</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>xml-apis</artifactId>
+					<groupId>xml-apis</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-scratchpad -->
 		<dependency>
@@ -149,12 +147,12 @@
 			<artifactId>openxml4j</artifactId>
 			<version>1.0-beta</version>
 		</dependency>
-<!-- https://mvnrepository.com/artifact/xml-apis/xml-apis -->
-<dependency>
-    <groupId>xml-apis</groupId>
-    <artifactId>xml-apis</artifactId>
-    <version>2.0.2</version>
-</dependency>
+		<!-- https://mvnrepository.com/artifact/xml-apis/xml-apis -->
+		<dependency>
+			<groupId>xml-apis</groupId>
+			<artifactId>xml-apis</artifactId>
+			<version>2.0.2</version>
+		</dependency>
 
 	</dependencies>
 
